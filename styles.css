@@ -1,0 +1,40 @@
+* {
+    font-style: "helvetica";
+}
+.top, .footer {
+    background-color:#1f2937;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.link, .content_text {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+button, .signup {
+    background-color: #3882f6;
+}
+
+.content_title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
