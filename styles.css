@@ -130,3 +130,15 @@ button, .signup {
     width: 100px;
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 120px;
+    text-align: center;
+
+}
+.author {
+    font-weight: 900;
+    align-self: flex-end;
+}
