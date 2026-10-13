@@ -38,3 +38,28 @@ button, .signup {
     font-weight: 300;
     font-style: italic;
 }
+
+.body {
+    margin: 0px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 50px;
+    
+    margin: 0px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px;
+}
+.header_link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
