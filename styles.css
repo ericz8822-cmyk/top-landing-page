@@ -22,7 +22,7 @@
 
 .link, .content_text {
     font-size: 18px;
-    color: #e5e7eb
+    color: #c0d2f5
 }
 
 button, .signup {
@@ -96,4 +96,37 @@ button, .signup {
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+}
+.content_title {
+    padding: 30px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 70px;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.pair {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.content_image_placeholder {
+    width: 100px;
+    height: 100px;
+    border: #3882f6 solid 2px;
+    border-radius: 8px;
+}
+.content_text {
+    width: 100px;
+    text-align: center;
 }
