@@ -20,14 +20,25 @@
     color: #f9faf8;
 }
 
-.link, .content_text {
+.link {
     font-size: 18px;
-    color: #c0d2f5
+    color: #f9faf8
+}
+
+.content_text {
+    color: grey;
 }
 
 button, .signup {
     background-color: #3882f6;
 }
+
+.call_title, 
+.call_text,
+.signup_button {
+    color: #f9faf8;
+}
+
 
 .content_title {
     font-size: 36px;
@@ -141,4 +152,36 @@ button, .signup {
 .author {
     font-weight: 900;
     align-self: flex-end;
+}
+
+.signup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px;
+    gap: 10px;
+    border-radius: 8px;
+    margin: 40px 80px;
+}
+.call_to_action {
+    display: flex;
+    flex-direction: column;
+}
+.call_title {
+    font-weight: 800;
+}
+.signup_button {
+    border: #f9faf8 solid 2px;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.footer {
+    color: #f9faf8;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
 }
